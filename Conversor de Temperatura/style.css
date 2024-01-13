@@ -1,0 +1,52 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(230, 230, 230);
+    font-size: 1em; 
+}
+
+h1{
+    color: rgb(135, 135, 222);
+}
+
+form{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    max-inline-size: 50%;
+    margin: auto;
+    padding: 2px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.26);
+}
+
+#inputTemperatura{
+    inline-size: 70%;
+    text-align: center;
+    font-size: 2em;
+    border: solid rgba(0, 0, 0, 0.334);
+    border-radius: 5px;
+}
+
+label{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#submitBtn{
+    background-color: rgb(245, 84, 84);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 1.5em;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+#submitBtn:hover{
+    background-color: rgb(251, 24, 24);
+}
+
+#result{
+    font-size: 1.75em;
+    font-weight: bold;
+}
